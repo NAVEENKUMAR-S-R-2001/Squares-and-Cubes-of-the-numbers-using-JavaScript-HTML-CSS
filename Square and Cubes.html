@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style type="text/css">
+    	*{
+            text-align: center;
+            background-color:#151516;    		
+    	}
+
+    	h1{
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color:cyan;
+            margin: auto;
+            padding: 10px;
+            color:black;
+            text-transform: uppercase;
+    	}
+        table,tr,td 
+        {
+            border: 2px solid black;
+            width: 40%;
+            height: 30px;
+            text-align: center;
+            border-collapse: collapse;
+            background-color: yellow;
+            font-weight: bold;
+        }
+         table{
+            margin: auto;
+            margin-top: 2px;
+         }
+         tr,td{
+         	padding:10px;
+         }
+         th{
+         	background-color: lightblue;
+         	color:black;
+         	padding:10px;
+         }
+
+
+    </style>
+
+</head>
+
+<body>
+	<h1>Squares And Cubes of the Numbers</h1>
+	<table>
+		<tr>
+			<th>Number</th>
+			<th>Square</th>
+			<th>Cube</th>
+		</tr>
+	</table>
+
+
+	    <script type="text/javascript">
+        
+        for (var n = 0; n <= 10; n++) 
+        {
+             document.write("<table><tr><td>" + n + "</td><td>" + n * n + "</td><td>" + n * n * n + "</td></tr></table>");
+            	
+        }
+       </script>
+
+
+</body>
+</html>
